@@ -440,27 +440,27 @@
 										"Question": {
 											"Kind": "MC",
 											"ID": "WALKING_PATH_TYPE",
-											"Text": "What types of walking path is present?",
+											"Text": "What types of walking path are present?",
 											"JumpID": null,
 											"Other": false,
 											"Answers": [
 												{
 													"Answer": {
 														"Text": "Sidewalk",
-														"Value": "Sidewalk"
+														"Value": "SIDEWALK"
 													}
 												},
 												{
 													"Answer": {
 														"Text": "Walking path for pedestrian only",
-														"Value": "pedestrian_only"
+														"Value": "PEDESTRIAN_ONLY"
 													}
 												},
 												{
 													"Answer": {
 														"Text": "Trail without pavement",
 														"JumpID": "PATH_WIDTH",
-														"Value": "Trail"
+														"Value": "TRAIL"
 													}
 												}
 											]
@@ -477,25 +477,25 @@
 												{
 													"Answer": {
 														"Text": "Poor (a lot of bumps, cracks, holes & weeds)",
-														"Value": "Poor"
+														"Value": "POOR"
 													}
 												},
 												{
 													"Answer": {
 														"Text": "Moderate (some bumps, cracks, holes & weeds)",
-														"Value": "Moderate"
+														"Value": "MODERATE"
 													}
 												},
 												{
 													"Answer": {
 														"Text": "Good (very few bumps, cracks, holes & weeds)",
-														"Value": "Good"
+														"Value": "GOOD"
 													}
 												},
 												{
 													"Answer": {
 														"Text": "Under repair",
-														"Value": "Under_repair"
+														"Value": "UNDER_REPAIR"
 													}
 												}
 											]
@@ -512,25 +512,25 @@
 												{
 													"Answer": {
 														"Text": "Less than 1.5m",
-														"Value": "<1.5m"
+														"Value": "<1.5M"
 													}
 												},
 												{
 													"Answer": {
 														"Text": "From 1.5 to less than 2.4m",
-														"Value": "1.5-2.4"
+														"Value": "1.5-2.4M"
 													}
 												},
 												{
 													"Answer": {
 														"Text": "From 2.4 to less than 3.6m",
-														"Value": "2.4-3.6"
+														"Value": "2.4-3.6M"
 													}
 												},
 												{
 													"Answer": {
 														"Text": "3.6m or more",
-														"Value": "<=3.6m"
+														"Value": ">=3.6M"
 													}
 												}
 											]
@@ -553,7 +553,7 @@
 												{
 													"Answer": {
 														"Text": "Present but not enough",
-														"Value": "Present_but_not_enough"
+														"Value": "PRESENT_BUT_NOT_ENOUGH"
 													}
 												},
 												{
@@ -565,7 +565,7 @@
 												{
 													"Answer": {
 														"Text": "Enough buffers",
-														"Value": "Enough_buffers"
+														"Value": "ENOUGH_BUFFERS"
 													}
 												}
 											]
@@ -582,19 +582,19 @@
 												{
 													"Answer": {
 														"Text": "Continuous",
-														"Value": "Continuous"
+														"Value": "CONTINUOUS"
 													}
 												},
 												{
 													"Answer": {
 														"Text": "Partially continuous",
-														"Value": "Partially_continuous"
+														"Value": "PARTIALY_CONTINUOUS"
 													}
 												},
 												{
 													"Answer": {
 														"Text": "Not present",
-														"Value": "Not_present"
+														"Value": "NOT_PRESENT"
 													}
 												}
 											]
@@ -788,25 +788,25 @@
 												{
 													"Answer": {
 														"Text": "< 25% of this path",
-														"Value": "<25"
+														"Value": "<25%"
 													}
 												},
 												{
 													"Answer": {
 														"Text": "More than 25, less than 50% of this path",
-														"Value": "25-50"
+														"Value": "25-50%"
 													}
 												},
 												{
 													"Answer": {
 														"Text": "More than 50, less than 75% of this path",
-														"Value": "50-75"
+														"Value": "50-75%"
 													}
 												},
 												{
 													"Answer": {
 														"Text": "More than 75% of this path",
-														"Value": ">75"
+														"Value": ">75%"
 													}
 												}
 											]
@@ -823,31 +823,31 @@
 												{
 													"Answer": {
 														"Text": "None",
-														"Value": "0"
+														"Value": "0%"
 													}
 												},
 												{
 													"Answer": {
 														"Text": "< 25% of this path",
-														"Value": "<25"
+														"Value": "<25%"
 													}
 												},
 												{
 													"Answer": {
 														"Text": "More than 25, less than 50% of this path",
-														"Value": "25-50"
+														"Value": "25-50%"
 													}
 												},
 												{
 													"Answer": {
 														"Text": "More than 50, less than 75% of this path",
-														"Value": "50-75"
+														"Value": "50-75%"
 													}
 												},
 												{
 													"Answer": {
 														"Text": "More than 75% of this path",
-														"Value": ">75"
+														"Value": ">75%"
 													}
 												}
 											]

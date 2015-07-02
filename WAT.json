@@ -190,7 +190,7 @@
 									"Question": {
 										"Kind": "MC",
 										"ID": "TIME_TO_CROSS",
-										"Text": "Do traffic signals provide enough time to cross street?",
+										"Text": "Do traffic signals provide enough time to cross the street?",
 										"JumpID": null,
 										"Other": false,
 										"Answers": [
@@ -415,7 +415,7 @@
 										"Question": {
 											"Kind": "IM",
 											"ID": "PICTURE_START",
-											"Text": "Take a picture of the segment.",
+											"Text": "Take a picture of the path.",
 											"JumpID": null
 										}
 									}
@@ -470,7 +470,7 @@
 										"Question": {
 											"Kind": "MC",
 											"ID": "FLOOR_EVENNESS",
-											"Text": "Is the floor even or well-maintained without a trapping hazard?",
+											"Text": "Is the surface of the walking path even or well-maintained without a trapping hazard?",
 											"JumpID": null,
 											"Other": false,
 											"Answers": [
@@ -611,7 +611,7 @@
 										"Question": {
 											"Kind": "MC",
 											"ID": "Overall_convenience_of_walking_path",
-											"Text": "Is walking in this segment convenient and comfortable without falling or barriers?",
+											"Text": "Is walking in this path convenient and comfortable without falling or barriers?",
 											"JumpID": null,
 											"Other": false,
 											"Answers": [
@@ -709,6 +709,12 @@
 												},
 												{
 													"Answer": {
+														"Text": "Construction site",
+														"Value": "CONSTRUCTION_SITE"
+													}
+												},
+												{
+													"Answer": {
 														"Text": "Undeveloped or vacant land",
 														"Value": "UNDEVELOPED_VACANT"
 													}
@@ -727,7 +733,7 @@
 										"Question": {
 											"Kind": "MC",
 											"ID": "SAFETY_FROM_TRAFFIC",
-											"Text": "Is this segment safe enough from traffic?",
+											"Text": "Is this path safe enough from traffic?",
 											"JumpID": null,
 											"Other": false,
 											"Answers": [
@@ -769,31 +775,37 @@
 											"Answers": [
 												{
 													"Answer": {
-														"Text": "None",
-														"Value": "0"
+														"Text": "No surrounding buildings",
+														"Value": "NO_BUILDINGS"
 													}
 												},
 												{
 													"Answer": {
-														"Text": "< 25% of this segment",
+														"Text": "No vacant Buildings",
+														"Value": "NO_VACANT_BUILDINGS"
+													}
+												},
+												{
+													"Answer": {
+														"Text": "< 25% of this path",
 														"Value": "<25"
 													}
 												},
 												{
 													"Answer": {
-														"Text": "More than 25, less than 50% of this segment",
+														"Text": "More than 25, less than 50% of this path",
 														"Value": "25-50"
 													}
 												},
 												{
 													"Answer": {
-														"Text": "More than 50, less than 75% of this segment",
+														"Text": "More than 50, less than 75% of this path",
 														"Value": "50-75"
 													}
 												},
 												{
 													"Answer": {
-														"Text": "More than 75% of this segment",
+														"Text": "More than 75% of this path",
 														"Value": ">75"
 													}
 												}
@@ -816,25 +828,25 @@
 												},
 												{
 													"Answer": {
-														"Text": "< 25% of this segment",
+														"Text": "< 25% of this path",
 														"Value": "<25"
 													}
 												},
 												{
 													"Answer": {
-														"Text": "More than 25, less than 50% of this segment",
+														"Text": "More than 25, less than 50% of this path",
 														"Value": "25-50"
 													}
 												},
 												{
 													"Answer": {
-														"Text": "More than 50, less than 75% of this segment",
+														"Text": "More than 50, less than 75% of this path",
 														"Value": "50-75"
 													}
 												},
 												{
 													"Answer": {
-														"Text": "More than 75% of this segment",
+														"Text": "More than 75% of this path",
 														"Value": ">75"
 													}
 												}
@@ -851,7 +863,7 @@
 											"Answers": [
 												{
 													"Answer": {
-														"Text": "Yes",
+														"Text": "Yes, well lit",
 														"Value": "YES"
 													}
 												},
@@ -869,7 +881,7 @@
 												},
 												{
 													"Answer": {
-														"Text": "No",
+														"Text": "No lighting at all",
 														"Value": "NO"
 													}
 												},
@@ -886,7 +898,7 @@
 										"Question": {
 											"Kind": "MC",
 											"ID": "VISIBILITY_FROM_CARS",
-											"Text": "Is this street well visible from people or cars passing by, especially after dark?",
+											"Text": "Is this path well visible from people or cars passing by, especially after dark?",
 											"JumpID": null,
 											"Other": false,
 											"Answers": [
@@ -922,7 +934,7 @@
 										"Question": {
 											"Kind": "MC",
 											"ID": "CRIME_SAFETY_PERCEPTION",
-											"Text": "Do you feel that walking on this segment is safe enough without fear of crime anytime for ",
+											"Text": "Do you feel that walking on this path is safe enough without fear of crime anytime for ",
 											"JumpID": null,
 											"Other": false,
 											"Answers": [
@@ -970,7 +982,7 @@
 										"Question": {
 											"Kind": "MC",
 											"ID": "SHADE_FROM_TREES",
-											"Text": "Are there a lot of trees along this segment that provides enough shades?",
+											"Text": "Are there a lot of trees along this path that provides enough shades?",
 											"JumpID": null,
 											"Other": false,
 											"Answers": [
@@ -1041,7 +1053,7 @@
 										"Question": {
 											"Kind": "MC",
 											"ID": "PLANTERS_PRESENCE",
-											"Text": "Are there planters along this segment?",
+											"Text": "Are there planters along this path?",
 											"JumpID": null,
 											"Other": false,
 											"Answers": [
@@ -1166,7 +1178,7 @@
 										"Question": {
 											"Kind": "MC",
 											"ID": "OVERALL_ATTRACTIVENESS",
-											"Text": "Do you feel that walking on this segment is beautiful enough?",
+											"Text": "Do you feel that walking on this path is beautiful enough?",
 											"JumpID": null,
 											"Other": false,
 											"Answers": [
@@ -1214,7 +1226,7 @@
 										"Question": {
 											"Kind": "MC",
 											"ID": "OVERALL_WALKABILITY",
-											"Text": "Overall, is this segment walkable? ",
+											"Text": "Overall, is this path walkable? ",
 											"JumpID": null,
 											"Other": false,
 											"Answers": [

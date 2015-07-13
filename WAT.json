@@ -216,6 +216,47 @@
 									}
 								},
 								{
+								    "Question": {
+								        "Kind": "MC",
+								        "ID": "WAITING_TIME_TO_CROSS",
+								        "Text": "Is the waiting time on the intersection too long?",
+								        "JumpID": null,
+								        "Other": false,
+								        "Answers": [
+								            {
+								                "Answer": {
+								                    "Text": "❤",
+								                    "Value": "1"
+								                }
+								            },
+								            {
+								                "Answer": {
+								                    "Text": "❤❤",
+								                    "Value": "2"
+								                }
+								            },
+								            {
+								                "Answer": {
+								                    "Text": "❤❤❤",
+								                    "Value": "3"
+								                }
+								            },
+								            {
+								                "Answer": {
+								                    "Text": "❤❤❤❤",
+								                    "Value": "4"
+								                }
+								            },
+								            {
+								                "Answer": {
+								                    "Text": "❤❤❤❤❤",
+								                    "Value": "5"
+								                }
+								            }
+								        ]
+								    }
+								},
+								{
 									"Question": {
 										"Kind": "MC",
 										"ID": "GREEN_MAN_PLUS",
